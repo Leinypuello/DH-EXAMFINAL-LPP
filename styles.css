@@ -1,0 +1,36 @@
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.boton1 {
+    background-color: #8B48BF;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: all 500ms;
+}
+
+.boton2 {
+    background-color: #232C50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: max-content;
+    transition: all 500ms;
+    justify-self: center;
+}
+
+.boton2:hover,
+.boton1:hover {
+    opacity: .8;
+}
